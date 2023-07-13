@@ -12,5 +12,8 @@ school_spending_df.head()
 
 I was having difficulty usuing pd.cut() because the 'Person budget' column held a string. Comparing the string to int resulted in Type Error repetedly. I needed to convert it to a float first, so I had to remove the leading dollar sign. This code helped me find out how.
 
+Used https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sort_values.html
+    This reference helped me use the df.sort_values() function to quickly view the data from angles I thought helped me write my analysis. 
+
 
 
